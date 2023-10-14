@@ -23,13 +23,18 @@ class OpcionesActivity : AppCompatActivity() {
         }
         val btnSing: Button = findViewById(R.id.btnSing)
         btnSing.setOnClickListener {
-            val intent3 = Intent(this,SingZActivity::class.java)
-            startActivity(intent3)
+            val intent4 = Intent(this,SingZActivity::class.java)
+            startActivity(intent4)
         }
         val btnGener: Button = findViewById(R.id.btnGene)
         btnGener.setOnClickListener {
-            val intent3 = Intent(this,GeneraActivity::class.java)
-            startActivity(intent3)
+            val intent5 = Intent(this,GeneraActivity::class.java)
+            startActivity(intent5)
+        }
+        val btnLP: Button = findViewById(R.id.btnLP)
+        btnLP.setOnClickListener {
+            val intent6 = Intent(this,ListActivity::class.java)
+            startActivity(intent6)
         }
     }
 }
